@@ -27,6 +27,15 @@ namespace E.CanhotoAPI
             builder.Services.AddScoped<IUserRepostiorio, UserRepositorio>();
             builder.Services.AddScoped<ILeftHandedRepositorio, LeftHandedRepositorio>();
 
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy(name: "MyPolicy",
+                    policy =>
+                    {
+                        policy.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin();
+                    });
+            });
+
 
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
@@ -49,6 +58,7 @@ namespace E.CanhotoAPI
 
             app.UseHttpsRedirection();
 
+            app.UseCors("MyPolicy");
             app.UseAuthorization();
 
 
