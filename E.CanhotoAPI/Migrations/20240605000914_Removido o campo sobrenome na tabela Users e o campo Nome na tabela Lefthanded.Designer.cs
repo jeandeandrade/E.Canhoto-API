@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace E.CanhotoAPI.Migrations
 {
     [DbContext(typeof(ECanhotoAPIDBContext))]
-    [Migration("20240602014008_Atualizacao-Data-Canhoto")]
-    partial class AtualizacaoDataCanhoto
+    [Migration("20240605000914_Removido o campo sobrenome na tabela Users e o campo Nome na tabela Lefthanded")]
+    partial class RemovidoocamposobrenomenatabelaUserseocampoNomenatabelaLefthanded
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -39,13 +39,11 @@ namespace E.CanhotoAPI.Migrations
                     b.Property<DateTime>("Data")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("Nome")
-                        .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
-
                     b.Property<int>("NotaFiscal")
                         .HasMaxLength(255)
+                        .HasColumnType("int");
+
+                    b.Property<int>("Status")
                         .HasColumnType("int");
 
                     b.Property<int?>("UserId")
@@ -81,11 +79,6 @@ namespace E.CanhotoAPI.Migrations
                         .HasColumnType("nvarchar(255)");
 
                     b.Property<string>("Nome")
-                        .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
-
-                    b.Property<string>("Sobrenome")
                         .IsRequired()
                         .HasMaxLength(255)
                         .HasColumnType("nvarchar(255)");

@@ -28,7 +28,7 @@ namespace E.CanhotoAPI.Controllers
         {
             User user = await _userRepostiorio.BuscarPorId(id);
             return Ok(user);
-        }
+        } 
 
         [HttpPost]
         public async Task<ActionResult<User>> Cadastrar([FromBody] User userModels)

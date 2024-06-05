@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
@@ -36,6 +37,8 @@ namespace E.CanhotoAPI.Migrations
                     Categoria = table.Column<int>(type: "int", nullable: false),
                     ValorGasto = table.Column<double>(type: "float", maxLength: 255, nullable: false),
                     NotaFiscal = table.Column<int>(type: "int", maxLength: 255, nullable: false),
+                    Data = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    Status = table.Column<int>(type: "int", nullable: false),
                     UserId = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>

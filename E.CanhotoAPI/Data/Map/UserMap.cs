@@ -10,7 +10,6 @@ namespace E.CanhotoAPI.Data.Map
         {
             builder.HasKey(x => x.Id);
             builder.Property(x => x.Nome).IsRequired().HasMaxLength(255);
-            builder.Property(x => x.Sobrenome).IsRequired().HasMaxLength(255);
             builder.Property(x => x.Email).IsRequired().HasMaxLength(255);
             builder.Property(x => x.Funcao).IsRequired().HasMaxLength(255);
         }

@@ -43,7 +43,6 @@ namespace E.CanhotoAPI.Repositorios
 
             userPerId.Nome = user.Nome;
             userPerId.Email = user.Email;
-            userPerId.Sobrenome = user.Sobrenome;
             userPerId.Funcao = user.Funcao;
 
             _dbcontext.Users.Update(userPerId);
@@ -51,6 +50,7 @@ namespace E.CanhotoAPI.Repositorios
 
             return userPerId;
         }
+
 
         public async Task<bool> Apagar(int id)
         {

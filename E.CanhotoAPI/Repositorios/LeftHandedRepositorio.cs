@@ -16,9 +16,7 @@ namespace E.CanhotoAPI.Repositorios
 
         public async Task<LeftHanded> BuscarPorId(int id)
         {
-            return await _dbcontext.LeftHanded
-                .Include(x => x.User)
-                .FirstOrDefaultAsync(x => x.Id == id);
+            return await _dbcontext.LeftHanded.FirstOrDefaultAsync(x => x.Id == id);
         }
 
         public async Task<List<LeftHanded>> BuscarTodosOsCanhotos()
@@ -45,11 +43,11 @@ namespace E.CanhotoAPI.Repositorios
                 throw new Exception($"Canhoto para o ID: {id} não foi encontrado no banco de dados.");
             }
 
-            leftHandedPerId.Nome = leftHanded.Nome;
             leftHandedPerId.Categoria = leftHanded.Categoria;
             leftHandedPerId.ValorGasto = leftHanded.ValorGasto;
             leftHandedPerId.NotaFiscal = leftHanded.NotaFiscal;
             leftHandedPerId.UserId = leftHanded.UserId;
+            leftHandedPerId.Status = leftHanded.Status;
 
             _dbcontext.LeftHanded.Update(leftHandedPerId);
             await _dbcontext.SaveChangesAsync();

@@ -1,7 +1,28 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Jean\\source\\repos\\CRUDS\\train\\E.CanhotoAPI\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\Aula\\E.Canhoto-API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6D4C0856-7DED-4922-8DB5-FE279D4F3846}|E.CanhotoAPI\\E.CanhotoAPI.csproj|c:\\users\\aula\\e.canhoto-api\\e.canhotoapi\\controllers\\lefthandedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D4C0856-7DED-4922-8DB5-FE279D4F3846}|E.CanhotoAPI\\E.CanhotoAPI.csproj|solutionrelative:e.canhotoapi\\controllers\\lefthandedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D4C0856-7DED-4922-8DB5-FE279D4F3846}|E.CanhotoAPI\\E.CanhotoAPI.csproj|c:\\users\\aula\\e.canhoto-api\\e.canhotoapi\\models\\lefthanded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D4C0856-7DED-4922-8DB5-FE279D4F3846}|E.CanhotoAPI\\E.CanhotoAPI.csproj|solutionrelative:e.canhotoapi\\models\\lefthanded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D4C0856-7DED-4922-8DB5-FE279D4F3846}|E.CanhotoAPI\\E.CanhotoAPI.csproj|c:\\users\\aula\\e.canhoto-api\\e.canhotoapi\\repositorios\\userrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D4C0856-7DED-4922-8DB5-FE279D4F3846}|E.CanhotoAPI\\E.CanhotoAPI.csproj|solutionrelative:e.canhotoapi\\repositorios\\userrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D4C0856-7DED-4922-8DB5-FE279D4F3846}|E.CanhotoAPI\\E.CanhotoAPI.csproj|c:\\users\\aula\\e.canhoto-api\\e.canhotoapi\\repositorios\\lefthandedrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D4C0856-7DED-4922-8DB5-FE279D4F3846}|E.CanhotoAPI\\E.CanhotoAPI.csproj|solutionrelative:e.canhotoapi\\repositorios\\lefthandedrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D4C0856-7DED-4922-8DB5-FE279D4F3846}|E.CanhotoAPI\\E.CanhotoAPI.csproj|c:\\users\\aula\\e.canhoto-api\\e.canhotoapi\\enums\\statuslefthanded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D4C0856-7DED-4922-8DB5-FE279D4F3846}|E.CanhotoAPI\\E.CanhotoAPI.csproj|solutionrelative:e.canhotoapi\\enums\\statuslefthanded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +30,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LeftHandedController.cs",
+              "DocumentMoniker": "C:\\Users\\Aula\\E.Canhoto-API\\E.CanhotoAPI\\Controllers\\LeftHandedController.cs",
+              "RelativeDocumentMoniker": "E.CanhotoAPI\\Controllers\\LeftHandedController.cs",
+              "ToolTip": "C:\\Users\\Aula\\E.Canhoto-API\\E.CanhotoAPI\\Controllers\\LeftHandedController.cs",
+              "RelativeToolTip": "E.CanhotoAPI\\Controllers\\LeftHandedController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T00:39:43.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\Aula\\E.Canhoto-API\\E.CanhotoAPI\\Repositorios\\UserRepositorio.cs",
+              "RelativeDocumentMoniker": "E.CanhotoAPI\\Repositorios\\UserRepositorio.cs",
+              "ToolTip": "C:\\Users\\Aula\\E.Canhoto-API\\E.CanhotoAPI\\Repositorios\\UserRepositorio.cs",
+              "RelativeToolTip": "E.CanhotoAPI\\Repositorios\\UserRepositorio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T00:29:48.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LeftHandedRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\Aula\\E.Canhoto-API\\E.CanhotoAPI\\Repositorios\\LeftHandedRepositorio.cs",
+              "RelativeDocumentMoniker": "E.CanhotoAPI\\Repositorios\\LeftHandedRepositorio.cs",
+              "ToolTip": "C:\\Users\\Aula\\E.Canhoto-API\\E.CanhotoAPI\\Repositorios\\LeftHandedRepositorio.cs",
+              "RelativeToolTip": "E.CanhotoAPI\\Repositorios\\LeftHandedRepositorio.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAA2wBkAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T23:16:16.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StatusLeftHanded.cs",
+              "DocumentMoniker": "C:\\Users\\Aula\\E.Canhoto-API\\E.CanhotoAPI\\Enums\\StatusLeftHanded.cs",
+              "RelativeDocumentMoniker": "E.CanhotoAPI\\Enums\\StatusLeftHanded.cs",
+              "ToolTip": "C:\\Users\\Aula\\E.Canhoto-API\\E.CanhotoAPI\\Enums\\StatusLeftHanded.cs",
+              "RelativeToolTip": "E.CanhotoAPI\\Enums\\StatusLeftHanded.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T23:05:12.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LeftHanded.cs",
+              "DocumentMoniker": "C:\\Users\\Aula\\E.Canhoto-API\\E.CanhotoAPI\\Models\\LeftHanded.cs",
+              "RelativeDocumentMoniker": "E.CanhotoAPI\\Models\\LeftHanded.cs",
+              "ToolTip": "C:\\Users\\Aula\\E.Canhoto-API\\E.CanhotoAPI\\Models\\LeftHanded.cs",
+              "RelativeToolTip": "E.CanhotoAPI\\Models\\LeftHanded.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T23:03:00.448Z",
+              "EditorCaption": ""
             }
           ]
         }

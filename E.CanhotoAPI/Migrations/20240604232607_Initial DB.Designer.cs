@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace E.CanhotoAPI.Migrations
 {
     [DbContext(typeof(ECanhotoAPIDBContext))]
-    [Migration("20240520233319_InitialDB")]
+    [Migration("20240604232607_Initial DB")]
     partial class InitialDB
     {
         /// <inheritdoc />
@@ -36,6 +36,9 @@ namespace E.CanhotoAPI.Migrations
                     b.Property<int>("Categoria")
                         .HasColumnType("int");
 
+                    b.Property<DateTime>("Data")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("Nome")
                         .IsRequired()
                         .HasMaxLength(255)
@@ -43,6 +46,9 @@ namespace E.CanhotoAPI.Migrations
 
                     b.Property<int>("NotaFiscal")
                         .HasMaxLength(255)
+                        .HasColumnType("int");
+
+                    b.Property<int>("Status")
                         .HasColumnType("int");
 
                     b.Property<int?>("UserId")
