@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("E.CanhotoAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f72b987156848a9ce9c52d9505a9b8a67e858587")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c90c45ce14702c685f1bc9d959775bff827518c")]
 [assembly: System.Reflection.AssemblyProductAttribute("E.CanhotoAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("E.CanhotoAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

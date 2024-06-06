@@ -402,9 +402,9 @@ C:\Users\Aula\E.Canhoto-API\E.CanhotoAPI\obj\Debug\net8.0\staticwebassets\msbuil
 C:\Users\Aula\E.Canhoto-API\E.CanhotoAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.E.CanhotoAPI.props
 C:\Users\Aula\E.Canhoto-API\E.CanhotoAPI\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\Aula\E.Canhoto-API\E.CanhotoAPI\obj\Debug\net8.0\scopedcss\bundle\E.CanhotoAPI.styles.css
-C:\Users\Aula\E.Canhoto-API\E.CanhotoAPI\obj\Debug\net8.0\E.Canhot.3A0C6030.Up2Date
 C:\Users\Aula\E.Canhoto-API\E.CanhotoAPI\obj\Debug\net8.0\E.CanhotoAPI.dll
 C:\Users\Aula\E.Canhoto-API\E.CanhotoAPI\obj\Debug\net8.0\refint\E.CanhotoAPI.dll
 C:\Users\Aula\E.Canhoto-API\E.CanhotoAPI\obj\Debug\net8.0\E.CanhotoAPI.pdb
 C:\Users\Aula\E.Canhoto-API\E.CanhotoAPI\obj\Debug\net8.0\E.CanhotoAPI.genruntimeconfig.cache
 C:\Users\Aula\E.Canhoto-API\E.CanhotoAPI\obj\Debug\net8.0\ref\E.CanhotoAPI.dll
+C:\Users\Aula\E.Canhoto-API\E.CanhotoAPI\obj\Debug\net8.0\E.CanhotoAPI.csproj.CopyComplete

@@ -1,4 +1,5 @@
-﻿using E.CanhotoAPI.Models;
+﻿using E.CanhotoAPI.DTO;
+using E.CanhotoAPI.Models;
 using E.CanhotoAPI.Repositorios.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -17,16 +18,16 @@ namespace E.CanhotoAPI.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<List<LeftHanded>>> BuscarCanhotos()
+        public async Task<ActionResult<List<CanhotosResponse>>> BuscarCanhotos()
         {
-            List<LeftHanded> leftHandeds = await _leftHandedRepositorio.BuscarTodosOsCanhotos();
+            List<CanhotosResponse> leftHandeds = await _leftHandedRepositorio.BuscarTodosOsCanhotos();
             return Ok(leftHandeds);
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<List<LeftHanded>>> BuscarPorId(int id)
+        public async Task<ActionResult<List<CanhotosResponse>>> BuscarPorId(int id)
         {
-            LeftHanded leftHanded = await _leftHandedRepositorio.BuscarPorId(id);
+            CanhotosResponse leftHanded = await _leftHandedRepositorio.BuscarPorId(id);
             return Ok(leftHanded);
         }
 
@@ -38,14 +39,14 @@ namespace E.CanhotoAPI.Controllers
             return Ok(leftHandeds);
         }
 
-        [HttpPut("{id}")]
-        public async Task<ActionResult<LeftHanded>> Atualizar([FromBody] LeftHanded leftHandedModels, int id)
-        {
-            leftHandedModels.Id = id;
-            LeftHanded leftHanded = await _leftHandedRepositorio.Atualizar(leftHandedModels, id);
+        //[HttpPut("{id}")]
+        //public async Task<ActionResult<LeftHanded>> Atualizar([FromBody] LeftHanded leftHandedModels, int id)
+        //{
+        //    leftHandedModels.Id = id;
+        //    LeftHanded leftHanded = await _leftHandedRepositorio.Atualizar(leftHandedModels, id);
 
-            return Ok(leftHanded);
-        }
+        //    return Ok(leftHanded);
+        //}
 
         [HttpDelete("{id}")]
         public async Task<ActionResult<LeftHanded>> Apagar(int id)
