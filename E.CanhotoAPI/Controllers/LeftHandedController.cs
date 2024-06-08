@@ -39,14 +39,14 @@ namespace E.CanhotoAPI.Controllers
             return Ok(leftHandeds);
         }
 
-        //[HttpPut("{id}")]
-        //public async Task<ActionResult<LeftHanded>> Atualizar([FromBody] LeftHanded leftHandedModels, int id)
-        //{
-        //    leftHandedModels.Id = id;
-        //    LeftHanded leftHanded = await _leftHandedRepositorio.Atualizar(leftHandedModels, id);
+        [HttpPut("{id}")]
+        public async Task<ActionResult<CanhotosResponse>> Atualizar([FromBody] LeftHanded leftHandedModels, int id)
+        {
+            leftHandedModels.Id = id;
+            CanhotosResponse leftHanded = await _leftHandedRepositorio.Atualizar(leftHandedModels, id);
 
-        //    return Ok(leftHanded);
-        //}
+            return Ok(leftHanded);
+        }
 
         [HttpDelete("{id}")]
         public async Task<ActionResult<LeftHanded>> Apagar(int id)

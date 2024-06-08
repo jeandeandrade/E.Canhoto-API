@@ -51,7 +51,7 @@ namespace E.CanhotoAPI.Repositorios
                 .ToListAsync();
         }
 
-        // Falta esse método
+        
         public async Task<LeftHanded> Adicionar(LeftHanded leftHanded)
         {
             await _dbcontext.LeftHanded.AddAsync(leftHanded);
@@ -80,7 +80,8 @@ namespace E.CanhotoAPI.Repositorios
                 throw new Exception($"Canhoto para o ID: {id} não foi encontrado no banco de dados.");
             }
 
-            canhoto.Status = leftHanded.Status;
+            leftHandedPerId.Status = leftHanded.Status;
+            canhoto.Status = leftHanded.Status; // só o status do canhoto pode ser atualizado
 
             _dbcontext.LeftHanded.Update(canhoto);
             await _dbcontext.SaveChangesAsync();
