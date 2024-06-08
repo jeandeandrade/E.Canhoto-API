@@ -41,7 +41,6 @@ namespace E.CanhotoAPI.Repositorios
                 throw new Exception($"Usuario para o ID: {id} não foi encontrado no banco de dados.");
             }
 
-            userPerId.Nome = user.Nome;
             userPerId.Email = user.Email;
             userPerId.Funcao = user.Funcao;
 
