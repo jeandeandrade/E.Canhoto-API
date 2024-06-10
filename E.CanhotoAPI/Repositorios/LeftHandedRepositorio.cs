@@ -25,7 +25,7 @@ namespace E.CanhotoAPI.Repositorios
                     NotaFiscal = x.NotaFiscal,
                     ValorGasto = x.ValorGasto,
                     Categoria = x.Categoria,
-                    Data = x.Data,
+                    Data = x.Data.ToShortDateString(),
                     Status = x.Status,
                     UserId = x.UserId,
                     UserName = x.User.Nome
@@ -43,7 +43,7 @@ namespace E.CanhotoAPI.Repositorios
                     NotaFiscal = x.NotaFiscal,
                     ValorGasto = x.ValorGasto,
                     Categoria = x.Categoria,
-                    Data = x.Data,
+                    Data = x.Data.ToShortDateString(),
                     Status = x.Status,
                     UserId = x.UserId,
                     UserName = x.User.Nome
@@ -70,7 +70,7 @@ namespace E.CanhotoAPI.Repositorios
                 NotaFiscal = leftHandedPerId.NotaFiscal,
                 ValorGasto = leftHandedPerId.ValorGasto,
                 Categoria = leftHandedPerId.Categoria,
-                Data = leftHandedPerId.Data,
+                Data = Convert.ToDateTime(leftHandedPerId.Data),
                 Status = leftHandedPerId.Status,
                 UserId = leftHandedPerId.UserId,
             };
@@ -99,7 +99,7 @@ namespace E.CanhotoAPI.Repositorios
                 NotaFiscal = leftHandedPerId.NotaFiscal,
                 ValorGasto = leftHandedPerId.ValorGasto,
                 Categoria = leftHandedPerId.Categoria,
-                Data = leftHandedPerId.Data,
+                Data = Convert.ToDateTime(leftHandedPerId.Data),
                 Status = leftHandedPerId.Status,
                 UserId = leftHandedPerId.UserId,
             };
